@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <title>responsive</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <style>
+        a {
+            color: blue;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            /* This ensures that the content is centered vertically as well */
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin-top: 40px;
+        }
+
+        .text-container {
+            display: flex;
+            gap: 20px;
+            /* Adjust the spacing between buttons */
+            margin-top: 20px;
+        }
+
+        .box {
+            border: 1px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+            background: plum;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        #contact {
+            margin-bottom: 20px;
+        }
+
+        .image-style {
+            height: auto;
+            max-width: 300px;
+        }
+
+        .image-display {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="week2hw.html">Rupali Bharti</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="week2hw.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html#contact">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><br /><br /><br /><br /><br /><br />
+    <h1>About Me</h1>
+    <div class="text">a btech(cse) student from, India </div>
+    <div>Hey, there I am Rupali Bharti a betech 2nd year student, I have completed my intermediate from dps bokaro. <div
+            class="image-display">
+            <div class="ss">
+                <img src="https://31ukq.codesandbox.io/images/yoga.png" class="img-fluid img-thumbnail rounded"
+                    id="image-style" />
+            </div>
+            <div class="ss">
+                <img src="https://31ukq.codesandbox.io/images/weather.png" class="img-fluid img-thumbnail rounded "
+                    id="image-style" />
+            </div>
+            <div class="ss">
+                <img src="https://31ukq.codesandbox.io/images/yogurt.png" class="img-fluid img-thumbnail rounded"
+                    id="image-style" />
+            </div>
+        </div>
+        <h1>☎️Contact Me</h1>
+        <a href="mailto:rupali4bharti@gmail.com" id="contact">rupali4bharti@gmail.com</a>
+</body>
+
+</html>

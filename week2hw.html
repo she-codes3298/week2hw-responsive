@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>responsive 1work</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            /* This ensures that the content is centered vertically as well */
+            margin: 0;
+        }
+
+        a {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 70px;
+        }
+
+        button {
+            cursor: pointer;
+            padding: 10px 5px 10px 5px;
+            border-radius: 30px;
+            background: blueviolet;
+        }
+
+        #mail {
+            background: blueviolet;
+            color: white;
+        }
+
+        .greeting {
+            text-align: center;
+            font-size: 50px;
+            font-weight: 100;
+        }
+
+        .profession {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+            /* Adjust the spacing between buttons */
+            margin-top: 20px;
+            font-size: 30px;
+        }
+
+        #image-style {
+            height: auto;
+            max-width: 400px;
+        }
+
+        .yoga {
+            font-size: 50px;
+            font-weight: 100;
+        }
+
+        .box-making {
+            padding: 300px auto;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Rupali Bharti</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html#contact">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="greeting">👋 Hi I am</div>
+    <h1>Rupali Bharti</h1>
+    <div class="profession">a btech(cse) student from India </div>
+    <div class="button-container">
+        <button id="mail"><a href="about.html#contact">Contact me</a></button>
+        <button><a href="about.html">About Me</a></button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="https://31ukq.codesandbox.io/images/yoga.png" class="img-fluid img-thumbnail rounded"
+                    id="image-style" />
+            </div>
+            <div class="col-sm-6">
+                <div class="box-making">
+                    <div class="yoga"> Yoga app</div>
+                    <div>This yoga app can make you fit in 6 months.<br /> it consist excersises for all the
+                        diseseas<br /> its a boon for people who wants to loose weight<br /> <button><a
+                                href="week2hw.html">Launch Yoga app</a></button></div>
+                </div>
+            </div>
+        </div><br /><br />
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="box-making">
+                    <div class="yoga">Weather app</div>
+                    <div>Its a great app , telling you about <br />your present temperature and weather<br />
+                        condition.Just type your city and the<br /> whole information is infront <br />of
+                        you.<br /><button><a href="week2hw.html">Launch weather app</a></button></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img src="https://31ukq.codesandbox.io/images/weather.png" class="img-fluid img-thumbnail rounded "
+                    id="image-style" />
+            </div>
+        </div>
+        <br /><br />
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="https://31ukq.codesandbox.io/images/yogurt.png" class="img-fluid img-thumbnail rounded"
+                    id="image-style" />
+            </div>
+            <div class="col-sm-6">
+                <div class="box-making">
+                    <div class="yoga"> Yogurt app</div>
+                    <div>This app tells you the benfits of curd<br />.How it should be consumed.<br />How to make and
+                        preserve it.<br />What are its sourses.<br /> <button><a href="week2hw.html">Launch Yogurt
+                                app</a></button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
